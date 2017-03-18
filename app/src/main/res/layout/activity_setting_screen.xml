@@ -1,0 +1,9 @@
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <CheckBoxPreference
+        android:key="suggest_checkbox"
+        android:title="@string/square_suggest_msg"
+        android:summary="@string/square_suggest_summary"/>
+</PreferenceScreen>
