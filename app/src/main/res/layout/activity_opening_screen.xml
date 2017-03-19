@@ -5,27 +5,32 @@
     android:layout_height="match_parent"
     tools:context="com.example.nakam.othello_android.game.othello.OpeningScreen"
     tools:ignore="MergeRootFrame"
-    android:orientation="vertical">
+    android:orientation="vertical"
+	android:weightSum="1">
 
 	<ImageView
 		android:id="@+id/opening_title"
 		android:layout_width="wrap_content"
-		android:layout_height="377dp"
+		android:layout_height="331dp"
 		android:contentDescription="@string/opening_title"
 		android:src="@drawable/app_title" />
 
 	<Button
-	    android:text="@string/game_start"
-	    android:id="@+id/StartBtn"
-	    android:layout_width="match_parent"
-	    android:layout_height="wrap_content"
-	    android:layout_gravity="center" />
+		android:id="@+id/StartBtn"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:text="@string/game_start"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_weight="0.23" />
 
-    <Button
+	<Button
+		android:id="@+id/SettingBtn"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
 	    android:text="@string/setting"
-	    android:id="@+id/SettingBtn"
-	    android:layout_width="match_parent"
-	    android:layout_height="wrap_content"
-	    android:layout_gravity="center" />
+		android:textAppearance="?android:attr/textAppearanceMedium"
+	    android:layout_gravity="center"
+		android:layout_weight="0.23" />
 
 </LinearLayout>
