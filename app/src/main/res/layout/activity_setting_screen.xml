@@ -5,5 +5,7 @@
     <CheckBoxPreference
         android:key="suggest_checkbox"
         android:title="@string/square_suggest_msg"
-        android:summary="@string/square_suggest_summary"/>
+        android:summary="@string/square_suggest_summary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 </PreferenceScreen>

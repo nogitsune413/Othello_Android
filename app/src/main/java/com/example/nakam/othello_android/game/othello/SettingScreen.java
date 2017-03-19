@@ -1,6 +1,5 @@
 package com.example.nakam.othello_android.game.othello;
 
-import android.app.ActionBar;
 import android.content.Intent;
 import android.os.Bundle;
 import android.preference.PreferenceActivity;
@@ -15,9 +14,6 @@ public class SettingScreen extends PreferenceActivity {
 	@SuppressWarnings("deprecation")
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-
-		ActionBar actionBar = this.getActionBar();
-	    actionBar.setDisplayHomeAsUpEnabled(true);
 	    addPreferencesFromResource(R.layout.activity_setting_screen);
 	}
 

@@ -6,9 +6,9 @@ class SettingReader {
 
 	private GameScreen gameScreenActivity;
 
-	SettingReader(GameScreen gameScreenActiviry)
+	SettingReader(GameScreen gameScreenActivity)
 	{
-		this.gameScreenActivity = gameScreenActiviry;
+		this.gameScreenActivity = gameScreenActivity;
 	}
 
 	/** サジェスト機能が有効の時、TRUEを返す。
